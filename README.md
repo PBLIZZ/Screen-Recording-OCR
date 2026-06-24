@@ -1,5 +1,7 @@
 # SRO — Screen Recording OCR
 
+![SRO Screen Recording OCR Workflow](assets/sro-explainer.png)
+
 SRO (Screen Recording OCR) is a highly efficient, single-screen full-stack utility designed for a very specific and essential task: **automatically extracting, chronologically ordering, and deduplicating visual text from screen recordings.** 
 
 Whether you are capturing software tutorials, online presentations, slide decks, or web-based discoveries, SRO processes your video file (up to 25MB) using the state-of-the-art **Gemini 3.5 Flash** model. It eliminates duplicate frames, transcribes complete paragraphs, sidebars, code snippets, and callouts, and segments them with precise location labels (e.g., `[Slide 8 - Sidebar]`) and clickable timestamps.
