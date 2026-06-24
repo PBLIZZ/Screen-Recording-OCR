@@ -6,3 +6,7 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Editor and Workspace settings
+.vscode/
+.antigravity/
