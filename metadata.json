@@ -1,0 +1,6 @@
+{
+  "name": "SRO",
+  "description": "Screen Recording OCR (SRO) tool that extracts visible text from videos and slideshows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
