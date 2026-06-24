@@ -1,5 +1,10 @@
 # SRO — Screen Recording OCR
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18+-blue.svg?logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.x-purple.svg?logo=vite&logoColor=white)](https://vite.dev/)
+[![Gemini](https://img.shields.io/badge/AI-Gemini%203.5%20Flash-orange.svg?logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+
 ![SRO Screen Recording OCR Workflow](assets/sro-explainer.png)
 
 SRO (Screen Recording OCR) is a highly efficient, single-screen full-stack utility designed for a very specific and essential task: **automatically extracting, chronologically ordering, and deduplicating visual text from screen recordings.** 
@@ -34,7 +39,8 @@ Whether you are capturing software tutorials, online presentations, slide decks,
 ## 📦 Getting Started
 
 ### 1. Prerequisites
-Ensure you have **Node.js** (v18+) and **npm** installed.
+- **Node.js** (v18+) and **npm** installed.
+- A **Google Gemini API Key** (obtain one for free from [Google AI Studio](https://aistudio.google.com/)).
 
 ### 2. Set Up Environment Variables
 Create a `.env` file in the root directory (using `.env.example` as a template) and add your Google Gemini API key:
